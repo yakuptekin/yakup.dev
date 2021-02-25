@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 :root {
     --terminal-bg-color: #15192a;
     --terminal-main-bg-color: #1e263a;
     --terminal-text-color: #fff;
   }
+body {
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
+html body {
+    height: 100vh;
+    background-color: var(--terminal-bg-color);
+}
+
 .portfolio-page {
     display: flex;
 }
@@ -54,7 +64,7 @@
     font-size: 15px;
     margin-bottom: 0px;
     display: inline-block;
-    font-family: Roboto;
+        font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
 }
 .faFileCode {
@@ -72,7 +82,7 @@
     font-size: 18px;
     margin-bottom: 0px;
     display: inline-block;
-    font-family: Roboto;
+        font-family: 'Source Sans Pro', sans-serif;
 }
 
 .unclicked-file {
@@ -99,7 +109,7 @@
 .user-info p {
     font-size: 15px;
     margin-bottom: -5px;
-    font-family: Roboto;
+        font-family: 'Source Sans Pro', sans-serif;
     color: #F2F2F2;
 }
 
@@ -119,15 +129,6 @@
 .icons-container a {
     margin-left: 10px;
     color: white;
-}
-
-body {
-    font-family: Roboto;
-}
-
-html body {
-    height: 100vh;
-    background-color: var(--terminal-bg-color);
 }
 
 .terminal-container {
@@ -191,7 +192,7 @@ header {
     color: #6B7388;
     float: left;
     margin-left: 5%;
-    font-family: Roboto;
+        font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     text-align: right;
 }
@@ -220,24 +221,24 @@ header {
 }
 
 .project-type {
-    font-family: Abril Fatface;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: white;
     margin-bottom: 20px;
 }
 
 .project-title {
-    font-family: Poppins;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
-    font-weight: lighter;
+    font-weight: 400;
     color: #868893;
     margin-bottom: 10px;
 }
 
 .project-excerpt {
-    font-family: Poppins;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 400;
     color: #E2E2E2;
     width: 100%;
 }
@@ -257,9 +258,9 @@ header {
 
 .project-tools p {
     margin-bottom: 0px;
-    font-family: Poppins;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 400;
     color:white;
 }
 

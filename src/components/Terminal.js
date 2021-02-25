@@ -121,7 +121,7 @@ class Terminal extends Component {
               cursor={{ hideWhenDone: true }}
             >
               <Typist.Delay ms={900} />
-              Yes
+              I don't want to know you 🖕
             </Typist>
           </div>
         </Delay>
