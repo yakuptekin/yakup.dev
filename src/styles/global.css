@@ -1,3 +1,8 @@
+:root {
+    --terminal-bg-color: #15192a;
+    --terminal-main-bg-color: #1e263a;
+    --terminal-text-color: #fff;
+  }
 .portfolio-page {
     display: flex;
 }
@@ -122,13 +127,13 @@ body {
 
 html body {
     height: 100vh;
-    background-color: #A5639F;
+    background-color: var(--terminal-bg-color);
 }
 
 .terminal-container {
-    background-color: black;
+    background-color: var(--terminal-main-bg-color);
     border-radius: 10px;
-    color: white;
+    color: var(--terminal-text-color);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -136,7 +141,7 @@ html body {
     width: 70%;
     height: 70%;
     padding: 2% 0 2% 2%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 0 4px 30px rgba(0,0,0,.5);
 }
 
 .terminal-nav {

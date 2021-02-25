@@ -116,7 +116,7 @@ class Terminal extends Component {
         <Delay wait={23000}>
           <div className="row">
             <FontAwesomeIcon icon={ faAngleRight } className="angle-right" style={{ color: 'white', fontSize:'15px'}}/>
-            Sign In (Yes / No): &nbsp;
+            Do you want to know me? (Yes / No): &nbsp;
             <Typist 
               cursor={{ hideWhenDone: true }}
             >

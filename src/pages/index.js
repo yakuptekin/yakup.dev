@@ -8,7 +8,7 @@ import Terminal from "../components/Terminal"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <Terminal data={data.terminal}/>
   </Layout>
 )
