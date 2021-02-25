@@ -16,11 +16,11 @@ class Terminal extends Component {
   //   }
   // }
 
- componentDidMount() {
-      setTimeout(() => {
-        window.location.replace(`/about`)
-      }, 28000);
-    }
+   // componentDidMount() {
+    //     setTimeout(() => {
+    //       window.location.replace(`/about`)
+    //     }, 28000);
+    //   }
   
 
   
@@ -75,7 +75,7 @@ class Terminal extends Component {
             <Typist 
               cursor={{ hideWhenDone: true }}
             >
-              Hi I'm {name}
+              Hi there, I'm {name}!
             </Typist>
           </div>
         </Delay>

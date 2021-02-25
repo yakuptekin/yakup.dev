@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Keturah`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Hi there, I'm Yakup! 👋`,
+    description: `I use code to create things that benefit others.`,
+    author: `@yakuptekin`,
   },
   plugins: [
     `gatsby-transformer-remark`,
@@ -31,7 +31,7 @@ module.exports = {
               background_color: `#663399`,
               theme_color: `#663399`,
               display: `minimal-ui`,
-              icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+              icon: `src/images/favicon.png`, // This path is relative to the root of the site.
             },
           },
     
